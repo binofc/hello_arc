@@ -8,7 +8,7 @@ spec:
   releaseName: hello-arc
   chart:
     spec:
-      chart: podinfo
+      chart: charts/hello-arc
       sourceRef:
         kind: GitRepository
         name: hello-arc
