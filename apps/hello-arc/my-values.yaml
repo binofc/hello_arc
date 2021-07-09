@@ -1,0 +1,7 @@
+image:
+  repository: liorkamrat/hello-arc
+  tag: latest
+replicaCount: 5
+env:
+  name: MESSAGE
+  value: This is a Flux GitOps Demo
